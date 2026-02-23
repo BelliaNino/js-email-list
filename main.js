@@ -15,7 +15,7 @@ fetch(endpoint)
 .then(data => {
     console.log(data.response);
 
-    listEl.innerHTML += `<li>${data.response}</li>`
+    listEl.innerHTML += `<li class="list-group-item list-group-item-action">${data.response}</li>`
 })
 }
 
